@@ -1,0 +1,122 @@
+body {
+	background-color: rgb(245,240,245);
+	color: #7C81AD;
+	font-weight: 300;
+	font-family: Lora;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+h1,h2,h3 {
+	font-family: Nunito
+}
+
+h1 {
+	color: #2E4374;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+h2 {
+	color: #4B527E;
+	;
+	font-weight: bolder;
+	font-size: 28px;
+}
+
+a {
+	text-decoration: none;
+	color: #7C81AD;
+	font-family: Nunito;
+	font-weight: 400;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #2E4374;
+	font-weight: bold;
+}
+
+img {
+	text-align: center;
+	margin: auto;
+	display: flex;
+	;
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 50px auto;
+}
+
+
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+    background-color: white;
+ 	padding: 34px;
+    margin: 50px auto;
+    box-shadow: 0px 10px 13px rgba(75,0,75,0.12);	
+    border-radius: 8px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 100px;
+}
+
+.btn-purple {
+	background-color: #7C81AD;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 20px rgba(124,129,173,0.3);
+}
+.btn-purple:hover {
+	background-color:#2E4374;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+
+.list-inline i {
+	font-size: 44px;
+	color: #7C81AD;
+}
+
+.list-inline i:hover {
+	font-size: 46px;
+	color: #2E4374;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
